@@ -1,7 +1,8 @@
 import React from 'react';
 import './ServiceCard.css';
-import './root.css';
-const ServiceCard = ({ icon, title, description, page }) => {
+import { Link } from 'react-router-dom';
+
+const ServiceCard = ({ icon, title, description, page, link }) => {
   return (
     <li>
       <div className="service-card" data-page={page}>
@@ -11,6 +12,9 @@ const ServiceCard = ({ icon, title, description, page }) => {
         <div>
           <h3 className="card-title">{title}</h3>
           <p className="card-text">{description}</p>
+          <Link to={link} className="card-link">
+            اقرأ المزيد
+          </Link>
         </div>
       </div>
     </li>
@@ -18,4 +22,5 @@ const ServiceCard = ({ icon, title, description, page }) => {
 };
 
 export default ServiceCard;
+
   

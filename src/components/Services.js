@@ -3,12 +3,15 @@ import ServiceCard from './ServiceCard';
 import services from './servicesData'; 
 import './Services.css';
 import './root.css';
+
 const Services = () => {
     return (
         <section className="section service" id="service">
             <div className="container">
                 <p className="section-subtitle text-center">
-                    مجالات علاجنا
+                    <span className="highlight-text">
+                        مجالات علاجنا
+                    </span>
                     <img 
                         src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/512px/1f9b7.png"
                         width="70"
@@ -26,6 +29,7 @@ const Services = () => {
                             title={service.title}
                             description={service.description}
                             page={service.page}
+                            link={service.link}
                         />
                     ))}
                 </ul>
@@ -33,8 +37,5 @@ const Services = () => {
         </section>
     );
 };
+
 export default Services;
-
-
-
-

@@ -1,4 +1,3 @@
-
 .section {
     padding: 6rem 2rem;
     position: relative;
@@ -28,6 +27,17 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 2rem;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-subtitle .highlight-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
 }
 
 .section-subtitle::after {
@@ -63,6 +73,10 @@
 
     .section-subtitle {
         font-size: 2rem;
+    }
+
+    .section-subtitle .highlight-text {
+        font-size: 2.5rem;
     }
 }
 
