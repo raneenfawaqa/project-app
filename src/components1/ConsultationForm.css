@@ -1,0 +1,30 @@
+.consultation-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+  }
+  
+  .consultation-form-body {
+    padding: 2rem;
+  }
+  
+  @media (max-width: 640px) {
+    .consultation-form {
+      margin: 1rem;
+    }
+  
+    .consultation-form-body {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .consultation-form-body {
+      padding: 1rem;
+    }
+  }
+  
