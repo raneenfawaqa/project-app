@@ -8,7 +8,6 @@ import DentalImplants from './components2/DentalImplants';
 import CosmeticFillings from './components3/CosmeticFillings';
 import OrthodonticTreatment from './components4/OrthodonticTreatment';
 import GumTreatments from './components5/GumTreatments';
-import OralHealthCare from './components6/OralHealthCare';
 import OralRadiology from './components7/OralRadiology';
 import RootCanalTreatment from './components8/RootCanalTreatment';
 import PediatricDentalCare from './components9/PediatricDentalCare';
@@ -24,7 +23,6 @@ root.render(
           <Route path="/CosmeticFillings" element={<CosmeticFillings />} />
           <Route path="/OrthodonticTreatment" element={<OrthodonticTreatment />} />
           <Route path="/GumTreatments" element={<GumTreatments />} />
-          <Route path="/OralHealthCare" element={<OralHealthCare />} />
           <Route path="/OralRadiology" element={<OralRadiology />} />
           <Route path="/RootCanalTreatment" element={<RootCanalTreatment />} />
           <Route path="/PediatricDentalCare" element={<PediatricDentalCare />} />
